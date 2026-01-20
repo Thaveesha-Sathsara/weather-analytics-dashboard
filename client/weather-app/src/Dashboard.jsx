@@ -34,7 +34,7 @@ export default function Dashboard() {
     if (isLoading) return <div style={{ color: darkMode ? 'white' : 'black' }}>Loading...</div>;
 
     const theme = {
-    bg: darkMode ? "#111827" : "#f3f4f6", // Deeper dark, cleaner light
+    bg: darkMode ? "#111827" : "#f3f4f6",
     card: darkMode ? "#1f2937" : "#ffffff",
     text: darkMode ? "#f9fafb" : "#111827",
     border: darkMode ? "#374151" : "#e5e7eb",
@@ -115,7 +115,7 @@ export default function Dashboard() {
 const btnStyle = { 
     padding: '12px 24px', 
     fontSize: '16px', 
-    fontWeight: '600', // Bold text
+    fontWeight: '600',
     cursor: 'pointer', 
     backgroundColor: '#3182ce', 
     color: 'white', 
@@ -128,7 +128,7 @@ const inputStyle = {
     width: '100%', 
     padding: '12px 16px', 
     marginTop: '20px', 
-    borderRadius: '8px', // More rounded
+    borderRadius: '8px',
     border: '1px solid',
     fontSize: '16px',
     transition: 'all 0.2s'

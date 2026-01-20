@@ -5,11 +5,11 @@ import Dashboard from './Dashboard';
 function App() {
   return (
     <Auth0Provider
-      domain="dev-b5yr0mxjii1hhmuo.us.auth0.com" // Replace with your Auth0 Domain
-      clientId="6EzgaiPbCp0VQKi9XYlBwnY7DJhj4ntE" // Replace with your Client ID
+      domain="dev-b5yr0mxjii1hhmuo.us.auth0.com"
+      clientId="6EzgaiPbCp0VQKi9XYlBwnY7DJhj4ntE"
       authorizationParams={{
         redirect_uri: window.location.origin,
-        audience: "https://weather-api" // Must match your server's audience
+        audience: "https://weather-api"
       }}
     >
       <Dashboard />
