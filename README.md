@@ -13,7 +13,7 @@ A full-stack MERN application developed for the Fidenz Technologies technical as
 - **Frontend**: React.js, Recharts, Auth0-React, Axios.
 - **Backend**: Node.js, Express.js, Node-cache, OpenWeatherMap API.
 
-### 🔑 Test User Credentials
+### Test User Credentials
 
 To test the Auth0 protected dashboard, please use the credentials provided for this assessment:
 
