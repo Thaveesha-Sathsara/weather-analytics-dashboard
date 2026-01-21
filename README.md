@@ -13,6 +13,13 @@ A full-stack MERN application developed for the Fidenz Technologies technical as
 - **Frontend**: React.js, Recharts, Auth0-React, Axios.
 - **Backend**: Node.js, Express.js, Node-cache, OpenWeatherMap API.
 
+### 🔑 Test User Credentials
+
+To test the Auth0 protected dashboard, please use the credentials provided for this assessment:
+
+* **Email**: `careers@fidenz.com`
+* **Password**: `Pass#fidenz`
+
 ## How to Set Up the Environment (.env)
 
 To run this project locally, you must create a `.env` file in the **/server** directory. 
@@ -21,11 +28,12 @@ To run this project locally, you must create a `.env` file in the **/server** di
 Create a file named `.env` and add the following:
 
 PORT=3001
-OPENWEATHER_KEY=39f0b0edaf5a9014994a13a3ead31436
-AUTH_DOMAIN=dev-b5yr0mxjii1hhmuo.us.auth0.com
-AUTH_AUDIENCE=https://weather-api
 
-> **Note**: Do not share your actual `.env` file on public repositories.
+OPENWEATHER_KEY=39f0b0edaf5a9014994a13a3ead31436
+
+AUTH_DOMAIN=dev-b5yr0mxjii1hhmuo.us.auth0.com
+
+AUTH_AUDIENCE=https://weather-api
 
 ## Technical Implementation
 
