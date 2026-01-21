@@ -49,5 +49,6 @@ $$100 - (|Temp - 22| \times 2.5) - (Humidity \times 0.2) - (Wind \times 0.5)$$
    - `npm run dev`
 3. **Frontend**:
    - `cd client`
+   - `cd weather-app`
    - `npm install`
    - `npm start`
